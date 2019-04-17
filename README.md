@@ -12,7 +12,7 @@
 
 - Python 3
 
-- GeckoDriver 
+- [GeckoDriver](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) 
   - `sudo pacman -S geckodriver` on Arch Linux
 
 ## Installation
@@ -24,7 +24,8 @@ git clone --recursive https://github.com/mvrozanti/yawc \
   cd yawc/WebWhatsapp \
   pip3 install --user -r requirements.txt \
   cd .. \
-  !-2
+  !-2 \
+  sudo chmod +x yawc
 ```
 
 - Make sure you have geckodriver and Firefox 61 installed:
