@@ -14,6 +14,7 @@
 
 - [GeckoDriver](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) 
   - `sudo pacman -S geckodriver` on Arch Linux
+  - [Ubuntu](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu)
 
 ## Installation
 
@@ -30,6 +31,8 @@ git clone --recursive https://github.com/mvrozanti/yawc \
 
 - Make sure you have geckodriver and Firefox 61 installed:
   - `geckodriver -v; firefox -v`
+
+- `If having problems with tkinter, run: sudo apt-get install python3.6-tk
 
 ## Usage
 
